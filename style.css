@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --yelllow: #f9d806;
+    --yellow: #f9d806;
     --light-yellow: #ffee80;
     --black: #130f40;
     --light-color: #666;
@@ -45,7 +45,7 @@ section {
 }
 
 .btn:hover {
-    background: var(--yelllow);
+    background: var(--yellow);
 }
 
 .header {
@@ -68,7 +68,7 @@ section {
 }
 
 .header .logo span {
-    color: var(--yelllow);
+    color: var(--yellow);
 }
 
 .header .navbar a {
@@ -78,7 +78,7 @@ section {
 }
 
 .header .navbar a:hover {
-    color: var(--yelllow);
+    color: var(--yellow);
 }
 
 .header .btn {
@@ -176,7 +176,7 @@ section {
 }
 
 .login-form-container form p a {
-    color: var(--yelllow);
+    color: var(--yellow);
     text-decoration: underline;
 }
 
@@ -210,8 +210,65 @@ section {
 
 /* home section end */
 
+/* icons section */
 
+.icons-container{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    background: #eee;
+}
 
+.icons-container .icon{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+}
+
+.icons-container .icon i{
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    background: #eee;
+    color: var(--black);
+    text-align: center;
+}
+
+.icons-container .icon .content h3{
+    color: var(--yellow);
+    font-size: 2.5rem;
+}
+
+.icons-container .icon .content p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+.icons-container .icon:hover{
+    background: var(--black);
+}
+
+.icons-container .icon:hover i{
+    background: var(--yellow);
+}
+
+.icons-container .icon:hover .content h3{
+    color: #fff;
+}
+
+.icons-container .icon:hover .content p{
+    color: #eee;
+}
+
+/* icons section end */
 
 
 
