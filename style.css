@@ -6,7 +6,7 @@
     --black: #130f40;
     --light-color: #666;
     --border:.1rem solid rgba(0,0,0,.1);
-    --box-shadow:0 .5rem 1 rem rgba(0,0,0,.6);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
 
 * {
@@ -304,26 +304,28 @@ section {
     .vehicles .vehicles-slider .box{
        text-align: center;
        /* width: 30rem; */
+       
     }
 
     .vehicles .vehicles-slider .box img{
         width: 100%;
         opacity: .5;
-        transform: scale(.8);
+        transform: scale(.5);
     }
 
     .vehicles .vehicles-slider .box .content{
         transform: scale(0);
-        padding-top: 1rem;
+        padding: 1rem;
     }
 
     .vehicles .vehicles-slider .swiper-slide-active img{
         opacity: 1;
-        transform: scale(1);
+        transform: scale(1.1);
     }
 
     .vehicles .vehicles-slider .swiper-slide-active .content{
         transform: scale(1);
+        
     }
 
     .swiper-pagination-bullet-active{
@@ -376,8 +378,8 @@ section {
     text-align: center;
     padding: 2rem;
     border-radius: 0.5rem;
-    box-shadow: var(--box-shadow);
-    border: var(--border);
+    box-shadow:var(--box-shadow);
+    border:var(--border);
    }
 
    .services .box-container .box i{
