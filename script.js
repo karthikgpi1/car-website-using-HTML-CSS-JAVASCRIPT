@@ -120,7 +120,7 @@ var swiper = new Swiper(".featured-slider", {
         slidesPerView: 2,
         // spaceBetween: 40,
       },
-      991: {
+      1045: {
         slidesPerView: 3,
         // spaceBetween: 50,
       },
