@@ -93,3 +93,38 @@ var swiper = new Swiper(".vehicles-slider", {
 });
 
 //vehicle slider end---
+
+
+//featured slider starts---
+
+var swiper = new Swiper(".featured-slider", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop:true,
+    grabCursor:true,
+    centeredSlides:true,
+    autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      }, 
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+        // spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        // spaceBetween: 40,
+      },
+      991: {
+        slidesPerView: 3,
+        // spaceBetween: 50,
+      },
+    },
+});
+
+//featured slider end--
