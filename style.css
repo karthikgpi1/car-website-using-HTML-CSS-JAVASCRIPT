@@ -601,7 +601,12 @@ section {
 
       .contact .row form textarea{
         height: 15rem;
+        width: 100%;
+        border: var(--border);
         resize: none;
+        padding: 1rem;
+        border-radius: .5rem;
+        font-size: 1.6rem;
       }
 
 /* contact section starts: */
