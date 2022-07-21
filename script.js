@@ -66,6 +66,8 @@ var swiper = new Swiper(".vehicles-slider", {
     slidesPerView: 1,
     spaceBetween: 20,
     loop:true,
+    grabCursor:true,
+    centeredSlides:true,
     autoplay: {
         delay: 3500,
         disableOnInteraction: false,
