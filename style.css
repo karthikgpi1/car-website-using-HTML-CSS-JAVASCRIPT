@@ -535,7 +535,21 @@ section {
         transform: scale(1);
         box-shadow: var(--box-shadow);
         border: var(--border);
+        /* background: var(--black); */
        }
+
+       .reviews .reviews-slider .swiper-slide-active:hover{
+        background: var(--light-yellow);
+       }
+
+       .reviews .reviews-slider .swiper-slide-active:hover .content p {
+        color:var(--black);
+       }
+
+       .reviews .reviews-slider .swiper-slide-active:hover .content .stars i {
+        color: green;
+       }
+
 
        .reviews .reviews-slider .box img{
         height: 7rem;
@@ -637,6 +651,10 @@ section {
         font-size: 1.4rem;
         display: block;
         padding: 1rem 0;
+      }
+
+      .footer .box-container .box a:hover{
+        font-weight: bolder;
       }
 
       .footer .box-container .box a i{
