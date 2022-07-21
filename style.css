@@ -524,8 +524,15 @@ section {
         padding: 2rem;
         margin: 2rem 0;
         text-align: center;
-        /* opacity: .4;
-        transform: scale(.9); */
+        opacity: .4;
+        transform: scale(.9);
+       }
+
+       .reviews .reviews-slider .swiper-slide-active{
+        opacity: 1;
+        transform: scale(1);
+        box-shadow: var(--box-shadow);
+        border: var(--border);
        }
 
        .reviews .reviews-slider .box img{
@@ -536,7 +543,7 @@ section {
        }
        
        .reviews .reviews-slider .box .content p{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         color: var(--light-color);
         padding: 1rem 0;
        }

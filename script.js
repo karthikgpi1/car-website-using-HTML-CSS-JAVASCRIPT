@@ -130,6 +130,7 @@ var swiper = new Swiper(".featured-slider", {
 //featured slider end--
 
 // reviews section slider starts:
+
 var swiper = new Swiper(".reviews-slider", {
   slidesPerView: 1,
   spaceBetween: 20,
