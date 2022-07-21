@@ -189,6 +189,7 @@ section {
     color: var(--black);
     cursor: pointer;
 }
+/* home section start */
 
 .home {
     padding-top: 10rem;
@@ -207,6 +208,7 @@ section {
     margin: 1rem 0;
 }
 
+/* home section end */
 
 
 
